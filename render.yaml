@@ -24,6 +24,7 @@ services:
   - type: web
     name: hostedgpt
     runtime: docker
+    region: frankfurt
     plan: free
     healthCheckPath: /up
     envVars:
